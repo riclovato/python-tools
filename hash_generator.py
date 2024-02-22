@@ -21,3 +21,5 @@ elif menu ==3:
 elif menu ==4:
          result = hashlib.sha512(string.encode('utf-8'))
          print(f'String: {string} \nHash SHA512: {result.hexdigest()}')
+else:
+        print('Something went wrong. Try again.')
